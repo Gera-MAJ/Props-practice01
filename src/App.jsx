@@ -33,7 +33,7 @@ function App() {
         </button>
       </div>
       <hr />
-      <Component01 nombre= {"Gerardo"} apellido={apellido} ficha= {ficha}/>
+      <Component01 ficha= {ficha}/>
 
     </>
   )

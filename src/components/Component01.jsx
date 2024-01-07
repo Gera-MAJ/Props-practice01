@@ -27,4 +27,10 @@ Component01.propTypes = {
     ficha: PropTypes.object
 }
 
+//Con esta parte colocamos valores por defecto en las variables que necesitemos
+Component01.defaultProps = {
+    nombre: "Gerardo Miguel Angel",
+    apellido: "Jatip"
+}
+
 export default Component01
