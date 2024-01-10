@@ -3,6 +3,8 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Component01 from './components/Component01'
+import ComponenteMapeo from './components/ComponenteMapeo'
+import ComponenteAcciones from './components/ComponenteAcciones'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -33,7 +35,11 @@ function App() {
         </button>
       </div>
       <hr />
+      <ComponenteAcciones/>
+      <hr />
       <Component01 ficha= {ficha}/>
+      <hr />
+      <ComponenteMapeo />
 
     </>
   )
